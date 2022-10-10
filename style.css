@@ -104,13 +104,13 @@ section {
 
 #curtainleft {
     position: absolute;
-    bottom: 0px;
+    top: 20px;
     right: 900px;
 }
 
 #curtainright {
     position: absolute;
-    bottom: 0px;
+    top: 20px;
     left: 900px;
 }
 
