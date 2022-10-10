@@ -102,6 +102,48 @@ section {
     background-image: url("S2.png");
 }
 
+#paneswap7 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(1deg);
+}
+
+#paneswap7:hover {
+    background-image: url("gooutagain.png");
+}
+
+#paneswap8 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(1deg);
+}
+
+#paneswap8:hover {
+    background-image: url("youshould.png");
+}
+
+#paneswap9 {
+    width: 200px;
+    height: 200px;
+    background-image: url("pane.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(1deg);
+}
+
+#paneswap9:hover {
+    background-image: url("goout.png");
+}
+
 #curtainleft {
     position: absolute;
     top: 30px;
