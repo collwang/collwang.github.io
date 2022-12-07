@@ -1,0 +1,458 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#readingresponses {
+
+}
+
+#speechbubble {
+
+}
+
+#char0box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+}
+
+#char0 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("0.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char1box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#char1 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char2box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#char2 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char3box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#char3 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char4box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#char4 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char5box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#char5 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char6box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#char6 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char7box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#char7 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("7.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char8box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#char8 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("8.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char9box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#char9 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("9.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes charanimation {
+    from {background-position: 0 0vw;}
+    to {background-position: 0 -60vw}
+}
+
+#projecttable {
+    position: absolute;
+    right: 5vw;
+    top: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    #projecttable {
+    right: 9.5vw;
+    }
+}
+
+#fruit {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("fruit.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+#fruithitbox {
+    position: absolute;
+    right: calc(230px + 18vw);
+    top: 23px;
+    /* background: red; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
+#stilllife {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("stilllife.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#stilllifehitbox {
+    position: absolute;
+    right: calc(140px + 10vw);
+    top: 23px;
+    /* background: orange; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
+#foottrap {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("foottrap.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#foottraphitbox {
+    position: absolute;
+    right: calc(40px + 2.5vw);
+    top: 23px;
+    /* background: yellow; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
+#linkloop {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("linkloop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#linkloophitbox {
+    position: absolute;
+    right: calc(230px + 18vw);
+    top: calc(125px + 7vw);
+    /* background: green; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
+#bedroom {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("bedroom.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bedroomhitbox {
+    position: absolute;
+    right: calc(140px + 10vw);
+    top: calc(125px + 7vw);
+    /* background: blue; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
+#clock {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("clock.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#clockhitbox {
+    position: absolute;
+    right: calc(40px + 2.5vw);
+    top: calc(125px + 7vw);
+    /* background: indigo; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
+#performance {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("performance.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#performancehitbox {
+    position: absolute;
+    right: calc(230px + 18vw);
+    top: calc(230px + 14vw);
+    /* background: violet; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
+#ifttt {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("ifttt.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ifttthitbox {
+    position: absolute;
+    right: calc(140px + 10vw);
+    top: calc(230px + 14vw);
+    /* background: red; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
+#scribble {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("scribble.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scribblehitbox {
+    position: absolute;
+    right: calc(40px + 2.5vw);
+    top: calc(230px + 14vw);
+    /* background: orange; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
+#fruithitbox:hover ~ #char1box {
+    opacity: 1;
+}
+
+#stilllifehitbox:hover ~ #char2box {
+    opacity: 1;
+}
+
+#foottraphitbox:hover ~ #char3box {
+    opacity: 1;
+}
+
+#linkloophitbox:hover ~ #char4box {
+    opacity: 1;
+}
+
+#bedroomhitbox:hover ~ #char5box {
+    opacity: 1;
+}
+
+#clockhitbox:hover ~ #char6box {
+    opacity: 1;
+}
+
+#performancehitbox:hover ~ #char7box {
+    opacity: 1;
+}
+
+#ifttthitbox:hover ~ #char8box {
+    opacity: 1;
+}
+
+#scribblehitbox:hover ~ #char9box {
+    opacity: 1;
+}
+
