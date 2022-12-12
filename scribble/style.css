@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 450px;
+  background-color: white;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+h1 {
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 30%;
+    }
+
+canvas {
+  display: block;
+  align: center;
+}
+
+#easeltopbox {
+    position: absolute;
+    width: 700px;
+    height: 76px;
+    top: calc(50vh - 160px);
+    overflow: hidden;
+}
+
+#easeltop {
+    position: absolute;
+    width: 700px;
+    height: 152px;
+    background-image: url("easeltop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:topanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes topanimation {
+    from {background-position: 0 0px;}
+    to {background-position: 0 -152px;}
+}
+
+
+#easelbottombox {
+    position: absolute;
+    width: 1000px;
+    height: 195px;
+    top: calc(100vh + 190px) ;
+    overflow: hidden;
+}
+
+#easelbottom {
+    position: absolute;
+    width: 1000px;
+    height: 390px;
+    background-image: url("easelbottom.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:bottomanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bottomanimation {
+    from {background-position: 0 0px;}
+    to {background-position: 0 -390px;}
+}
+
