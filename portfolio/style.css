@@ -12,6 +12,11 @@ html, body {
 
 }
 
+.char {
+    mix-blend-mode: multiply;
+    pointer-events: none;
+}
+
 #char0box {
     position: absolute;
     width: 50vw;
@@ -250,6 +255,25 @@ html, body {
     position: absolute;
     right: 5vw;
     top: 15px;
+    pointer-events: none;
+}
+
+@media only screen and (min-width: 900px)  {
+    #projecttable {
+        right: 5vw;
+        }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px)  {
+    #projecttable {
+        right: 7vw;
+        }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 500px)  {
+    #projecttable {
+        right: 8vw;
+        }
 }
 
 @media only screen and (max-width: 500px) {
@@ -258,10 +282,19 @@ html, body {
     }
 }
 
+#fruitbuttonhitbox {
+    position: absolute;
+    right: calc(230px + 18vw);
+    top: 23px;
+    /* background: red; */
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+}
+
 #fruit {
     width: calc(90px + 8vw);
     height: calc(90px + 8vw);
-    background-image: url("fruit.jpg");
+    background-image: url("fruit_unhovered_still.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -274,6 +307,21 @@ html, body {
     /* background: red; */
     width: calc(80px + 8vw);
     height: calc(80px + 8vw);
+}
+
+#fruithovered {
+    position: absolute;
+    right: calc(230px + 18vw);
+    top: 23px;
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+    background-image: url("fruit_hovered_still.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    pointer-events: none;
+    
 }
 
 #stilllife {
@@ -424,6 +472,10 @@ html, body {
     opacity: 1;
 }
 
+#fruithitbox:hover ~ #fruithovered {
+    opacity: 1;
+}
+
 #stilllifehitbox:hover ~ #char2box {
     opacity: 1;
 }
@@ -455,4 +507,3 @@ html, body {
 #scribblehitbox:hover ~ #char9box {
     opacity: 1;
 }
-
