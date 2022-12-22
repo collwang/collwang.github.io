@@ -1,0 +1,1530 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#readingresponsesbox:hover > #readingresponses {
+    opacity: 1;
+}
+
+#speechbox0 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    mix-blend-mode: multiply;
+}
+
+#speech0 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_0.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#speechbox1 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speech1 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#speechbox2 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speech2 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#speechbox3 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speech3 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#speechbox4 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speech4 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#speechbox5 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speech5 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#speechbox6 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speech6 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#speechbox7 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speech7 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_7.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#speechbox8 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speech8 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_8.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#speechbox9 {
+    position: absolute;
+    width: 20vw;
+    height: 12vw;
+    bottom: 20vw;
+    left: 32vw;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#speech9 {
+    position: relative;
+    width: 20vw;
+    height: 24vw;
+    background-image: url("speech_9.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:speechanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes speechanimation {
+    from {background-position: 0 0vw;}
+    to {background-position: 0 -24vw}
+}
+
+#shelf {
+    position: absolute;
+    width: 29vw;
+    height: 20vw;
+    bottom: 30vw;
+    right: 65vw;
+    background-image: url("shelf.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px)  {
+    #shelf {
+        width: 40vw;
+        height: 30vw;
+        bottom: 30vw;
+        right: 15vw;
+        }
+}
+
+#readingresponsesbox {
+    position: relative;
+    width: 12.5vw;
+    height: 13vw;
+    bottom: 13px;
+    background-image: url("book.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: inline-block;
+    margin: 12 auto;
+    mix-blend-mode: multiply;
+}
+
+
+@media only screen and (max-width: 700px)  {
+    #readingresponsesbox {
+        bottom: -5px;
+    }
+}
+
+#readingresponses {
+    position: relative;
+    width: 18vw;
+    height: 26vw;
+    bottom: 0px;
+    right: 0px;
+    background-image: url("readingresponses.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:bookanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+@keyframes bookanimation {
+    from {background-position: 0 0vw;}
+    to {background-position: 0 -26vw}
+}
+
+#char0box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    mix-blend-mode: multiply;
+}
+
+#char0 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("0.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char1box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#char1 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char2box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#char2 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char3box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#char3 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char4box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#char4 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char5box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#char5 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char6box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#char6 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char7box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#char7 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("7.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char8box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#char8 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("8.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#char9box {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    bottom: 30px;
+    left: 5vw;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#char9 {
+    position: absolute;
+    width: 40vw;
+    height: 60vw;
+    background-image: url("9.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:charanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes charanimation {
+    from {background-position: 0 0vw;}
+    to {background-position: 0 -60vw}
+}
+
+#projecttable {
+    position: absolute;
+    right: 5vw;
+    top: 15px;
+    pointer-events: none;
+}
+
+@media only screen and (min-width: 900px)  {
+    #projecttable {
+        right: 4.5vw;
+        }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px)  {
+    #projecttable {
+        right: 6vw;
+        }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 500px)  {
+    #projecttable {
+        right: 8vw;
+        }
+}
+
+@media only screen and (max-width: 500px) {
+    #projecttable {
+    right: 9.4vw;
+    top: 5vw;
+    }
+}
+
+#fruit {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("fruit.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+#fruithitbox {
+    position: absolute;
+    right: calc(230px + 18vw);
+    top: 23px;
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#fruitselected {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: calc(175px + 14vw);
+    height: calc(175px + 14vw);
+    background-image: url("fruit_hovered.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:tableanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#stilllife {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("stilllife.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#stilllifehitbox {
+    position: absolute;
+    right: calc(140px + 10vw);
+    top: 23px;
+    width: calc(80px + 8vw);
+    height: calc(77px + 8vw);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#stilllifeselected {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: calc(175px + 14vw);
+    height: calc(175px + 14vw);
+    background-image: url("stilllife_hovered.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:tableanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#foottrap {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("foottrap.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#foottraphitbox {
+    position: absolute;
+    right: calc(40px + 2.5vw);
+    top: 23px;
+    width: calc(80px + 8vw);
+    height: calc(77px + 8vw);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#foottrapselected {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: calc(175px + 14vw);
+    height: calc(175px + 14vw);
+    background-image: url("foottrap_hovered.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:tableanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#linkloop {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("linkloop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#linkloophitbox {
+    position: absolute;
+    right: calc(230px + 18vw);
+    top: calc(135px + 7vw);
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#linkloopselected {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: calc(175px + 14vw);
+    height: calc(175px + 14vw);
+    background-image: url("linkloop_hovered.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:tableanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#bedroom {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("bedroom.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bedroomhitbox {
+    position: absolute;
+    right: calc(140px + 10vw);
+    top: calc(135px + 7vw);
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#bedroomselected {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: calc(175px + 14vw);
+    height: calc(175px + 14vw);
+    background-image: url("bedroom_hovered.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:tableanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#clock {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("clock.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#clockhitbox {
+    position: absolute;
+    right: calc(40px + 2.5vw);
+    top: calc(135px + 7vw);
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#clockselected {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: calc(175px + 14vw);
+    height: calc(175px + 14vw);
+    background-image: url("clock_hovered.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:tableanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#performance {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("performance.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#performancehitbox {
+    position: absolute;
+    right: calc(230px + 18vw);
+    top: calc(240px + 14vw);
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#performanceselected {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: calc(175px + 14vw);
+    height: calc(175px + 14vw);
+    background-image: url("performance_hovered.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:tableanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#ifttt {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("ifttt.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ifttthitbox {
+    position: absolute;
+    right: calc(140px + 10vw);
+    top: calc(240px + 14vw);
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#iftttselected {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: calc(175px + 14vw);
+    height: calc(175px + 14vw);
+    background-image: url("ifttt_hovered.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:tableanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+#scribble {
+    width: calc(90px + 8vw);
+    height: calc(90px + 8vw);
+    background-image: url("scribble.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scribblehitbox {
+    position: absolute;
+    right: calc(40px + 2.5vw);
+    top: calc(240px + 14vw);
+    width: calc(80px + 8vw);
+    height: calc(80px + 8vw);
+    overflow: hidden;
+    opacity: 0;
+}
+
+#scribbleselected {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: calc(175px + 14vw);
+    height: calc(175px + 14vw);
+    background-image: url("scribble_hovered.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:tableanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes tableanimation {
+    from {background-position: 0 0vw;}
+    to {background-position: 0 calc(-182px - 14vw)}
+}
+
+#fruithitbox:hover {
+    opacity: 1;
+}
+
+#fruithitbox:hover ~ #char1box {
+    opacity: 1;
+}
+
+#fruithitbox:hover > #fruitselected {
+    opacity: 1;
+}
+
+#fruithitbox:hover ~ #speechbox1 {
+    opacity: 1;
+}
+
+#stilllifehitbox:hover {
+    opacity: 1;
+}
+
+#stilllifehitbox:hover ~ #char2box {
+    opacity: 1;
+}
+
+#stilllifehitbox:hover > #stilllifeselected {
+    opacity: 1;
+}
+
+#stilllifehitbox:hover ~ #speechbox2 {
+    opacity: 1;
+}
+
+#foottraphitbox:hover {
+    opacity: 1;
+}
+
+#foottraphitbox:hover ~ #char3box {
+    opacity: 1;
+}
+
+#foottraphitbox:hover > #foottrapselected {
+    opacity: 1;
+}
+
+#foottraphitbox:hover ~ #speechbox3 {
+    opacity: 1;
+}
+
+#linkloophitbox:hover {
+    opacity: 1;
+}
+
+#linkloophitbox:hover ~ #char4box {
+    opacity: 1;
+}
+
+#linkloophitbox:hover > #linkloopselected {
+    opacity: 1;
+}
+
+#linkloophitbox:hover ~ #speechbox4 {
+    opacity: 1;
+}
+
+#bedroomhitbox:hover {
+    opacity: 1;
+}
+
+#bedroomhitbox:hover ~ #char5box {
+    opacity: 1;
+}
+
+#bedroomhitbox:hover > #bedroomselected {
+    opacity: 1;
+}
+
+#bedroomhitbox:hover ~ #speechbox5 {
+    opacity: 1;
+}
+
+#clockhitbox:hover {
+    opacity: 1;
+}
+
+#clockhitbox:hover ~ #char6box {
+    opacity: 1;
+}
+
+#clockhitbox:hover > #clockselected {
+    opacity: 1;
+}
+
+#clockhitbox:hover ~ #speechbox6 {
+    opacity: 1;
+}
+
+#performancehitbox:hover {
+    opacity: 1;
+}
+
+#performancehitbox:hover ~ #char7box {
+    opacity: 1;
+}
+
+#performancehitbox:hover > #performanceselected {
+    opacity: 1;
+}
+
+#performancehitbox:hover ~ #speechbox7 {
+    opacity: 1;
+}
+
+#ifttthitbox:hover {
+    opacity: 1;
+}
+
+#ifttthitbox:hover ~ #char8box {
+    opacity: 1;
+}
+
+#ifttthitbox:hover > #iftttselected {
+    opacity: 1;
+}
+
+#ifttthitbox:hover ~ #speechbox8 {
+    opacity: 1;
+}
+
+#scribblehitbox:hover {
+    opacity: 1;
+}
+
+#scribblehitbox:hover ~ #char9box {
+    opacity: 1;
+}
+
+#scribblehitbox:hover > #scribbleselected {
+    opacity: 1;
+}
+
+#scribblehitbox:hover ~ #speechbox9 {
+    opacity: 1;
+}
+
+#two {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsetwo {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#two:hover {
+    cursor:grab;
+}
+
+#two:hover > #responsetwo {
+    opacity: 1;
+}
+
+#three {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsethree {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#three:hover {
+    cursor:grab;
+}
+
+#three:hover > #responsethree {
+    opacity: 1;
+}
+
+#four {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsefour {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#four:hover {
+    cursor:grab;
+}
+
+#four:hover > #responsefour {
+    opacity: 1;
+}
+
+#five {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsefive {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#five:hover {
+    cursor:grab;
+}
+
+#five:hover > #responsefive {
+    opacity: 1;
+}
+
+#six {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsesix {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#six:hover {
+    cursor:grab;
+}
+
+#six:hover > #responsesix {
+    opacity: 1;
+}
+
+#seven {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_7.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responseseven {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_7.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#seven:hover {
+    cursor:grab;
+}
+
+#seven:hover > #responseseven {
+    opacity: 1;
+}
+
+#eight {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_8.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responseeight {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#eight:hover {
+    cursor:grab;
+}
+
+#eight:hover > #responseeight {
+    opacity: 1;
+}
+
+#nine {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_9.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsenine {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#nine:hover {
+    cursor:grab;
+}
+
+#nine:hover > #responsenine {
+    opacity: 1;
+}
+
+#ten {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_10.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responseten {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_10.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#ten:hover {
+    cursor:grab;
+}
+
+#ten:hover > #responseten {
+    opacity: 1;
+}
+
+#eleven {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_11.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responseeleven {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_11.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#eleven:hover {
+    cursor:grab;
+}
+
+#eleven:hover > #responseeleven {
+    opacity: 1;
+}
+
+#twelve {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_12.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsetwelve {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_12.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#twelve:hover {
+    cursor:grab;
+}
+
+#twelve:hover > #responsetwelve {
+    opacity: 1;
+}
+
+#thirteen {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_13.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsethirteen {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_13.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#thirteen:hover {
+    cursor:grab;
+}
+
+#thirteen:hover > #responsethirteen {
+    opacity: 1;
+}
+
+#fifteen {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_15.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsefifteen {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_15.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#fifteen:hover {
+    cursor:grab;
+}
+
+#fifteen:hover > #responsefifteen {
+    opacity: 1;
+}
+
+#sixteen {
+    width: 75px;
+    height: 75px;
+    background-image: url("button_16.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#responsesixteen {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    background-image: url("text_16.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+
+#sixteen:hover {
+    cursor:grab;
+}
+
+#sixteen:hover > #responsesixteen {
+    opacity: 1;
+}
+
+#backbuttonoff {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 20px;
+    bottom: 5px;
+    background-image: url("backbutton_off.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode: multiply;
+}
+
+#backbuttonbox {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#backbutton {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-image: url("backbutton.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:backbuttonanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes backbuttonanimation {
+    from {background-position: 0 0;}
+    to {background-position: 0 -195px;}
+}
+
+#backbuttonoff:hover > #backbuttonbox {
+    opacity: 1;
+}
+
+#openbookbox {
+    position: absolute;
+    width: 70vw;
+    height: 48vw;
+    right: 50px;
+    top: 0px;
+    overflow: hidden;
+    mix-blend-mode: multiply;   
+}
+
+#openbook {
+    position: relative;
+    width: 70vw;
+    height: 170vw;
+background-image: url("openbook.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name:openbookanimation;
+    animation-duration: 0.6s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+}
+
+@keyframes openbookanimation {
+    from {background-position: 0 0;}
+    to {background-position: 0 -95vw;}
+}
